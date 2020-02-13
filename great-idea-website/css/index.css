@@ -64,7 +64,6 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 *{
-	border:2px solid red;
 	box-sizing:border-box;
 }
 nav{
@@ -81,7 +80,7 @@ nav{
 nav a{
 	color:gray;
 	text-decoration:none;
-	display:inline-block;
+
 	margin:6%;
 	margin-top:0;
 	font-size:18px;
@@ -110,6 +109,73 @@ h1{
 .codePic img{
 	height:600px;
 	width:600px;
+}
+.mainBody{
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	height:78%;
+	width:88%;
+	margin: 20px 6% 0px;
+}
+.body1{
+	width:48%;
+	height:20%;
+	display:inline-block;
+	font-size: 25px;
+}
+.body1 h2{
+	font-size:30px;
+}
+.body2{
+	width:45%;
+	height:20%;
+	display:inline-block;
+	margin: 0px 0px 0px 6%;
+	font-size: 25px;
+}
+.body2 h2{
+	font-size:30px;
+}
+.mainBody img{
+	width:100%;
+
+}
+.body3{
+	width:30%;
+	height:20%;
+	display:inline-block;
+	font-size: 25px;
+	margin:0 3% 0 0;
+}
+.body3 h2{
+		font-size:30px;
+}
+.body4{
+	width:30%;
+	height:20%;
+	display:inline-block;
+	font-size: 25px;
+	margin:0 3% 0 0;
+}
+.body4 h2{
+	font-size:30px;
+}
+.body5{
+	width:30%;
+	height:20%;
+	display:inline-block;
+	font-size: 25px;
+}
+.body5 h2{
+	font-size:30px;
+}
+.contact{
+	margin: 0px 6% 0px;
+	font-size: 25px;
+
+}
+.contact h2{
+	font-size:30px;
 }
 /*
 h1{
